@@ -12,6 +12,13 @@ button {
 	cursor: pointer;
 }
 
+[disabled] {
+    opacity: 0.75;
+    cursor: not-allowed;
+
+    color: #aaa;
+}
+
 html {
 	@media (max-width: 1080px) {
 		font-size: 93.75%; /* 15px */
@@ -75,7 +82,7 @@ main input {
     font-size: 1rem;
 }
 
-#cep-input-container {
+#cep-form {
     margin: .4rem;
     padding: 1.2rem;
 
@@ -88,7 +95,7 @@ main input {
 }
 
 #cep-input {
-    padding: .4rem .2rem;
+    padding: .4rem;
 
     border: none;
     border-radius: 4px;
@@ -125,7 +132,7 @@ main input {
 
 .cep-info input {
     margin-left: auto;
-    padding: .4rem .2rem;
+    padding: .4rem;
 
     border: none;
     border-radius: 4px;
