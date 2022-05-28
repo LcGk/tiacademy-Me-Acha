@@ -38,8 +38,6 @@ async function handleFindCEPSubmit(e) {
     } else if (request.status == 200) {
         let response = await request.json();
 
-        console.log(response);
-
         if (response.erro) {
             alert("CEP não encontrado!");
         } else {
