@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Me Acha</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <p id="title">ME ACHA!</p>
+        <p id="subtitle">Encontre um endereço pelo número de CEP</p>
+        
+        <!--Icon-->
+    </header>
+
+    <main>
+        <div id="cep-input-container">
+            <label for="cep-input">CEP</label>
+            <input type="text" id="cep-input" placeholder="Digite o CEP para buscar">
+
+            <button id="cep-find">BUSCAR</button>
+        </div>
+
+        <div id="cep-info-container">
+            <div class="cep-info">
+                <label for="cep-info-rua">Rua</label>
+                <input disabled type="text" id="cep-info-rua">
+            </div>
+            <div class="cep-info">
+                <label for="cep-info-bairro">Bairro</label>
+                <input disabled type="text" id="cep-info-bairro">
+            </div>
+            <div class="cep-info">
+                <label for="cep-info-cidade">Cidade</label>
+                <input disabled type="text" id="cep-info-cidade">
+            </div>
+            <div class="cep-info">
+                <label for="cep-info-estado">Estado</label>
+                <input disabled type="text" id="cep-info-estado">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
